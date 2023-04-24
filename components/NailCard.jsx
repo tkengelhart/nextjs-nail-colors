@@ -17,7 +17,6 @@ const NailCard = ({ heading }) => {
     );
     setNailColor(randomColor.nail_color);
     setUrlLink(randomColor.url);
-    console.log("the color is", customClass);
   };
 
   const handleShow = (e) => {
@@ -43,11 +42,11 @@ const NailCard = ({ heading }) => {
           <button className="p-4 m-2 border" onClick={handleClick}>
             Randomize
           </button>
-          <button className="p-4 m-2 border" onClick={handleShow}>
-            View all options
-          </button>
           <button className="p-4 m-2 border" onClick={removeRandomize}>
             Remove randomizer
+          </button>
+          <button className="p-4 m-2 border" onClick={handleShow}>
+            View all options
           </button>
         </div>
         <div className={customClass}>
