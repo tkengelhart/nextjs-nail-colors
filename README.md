@@ -9,6 +9,10 @@ Simple application to randomize a nail polish color from my list of available co
 
 ### Getting Started
 
+Deployed app can be seen here:  https://extraordinary-sorbet-2bdb2f.netlify.app
+
+
+
 First, run the development server:
 
 ```bash
