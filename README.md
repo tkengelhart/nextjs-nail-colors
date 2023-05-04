@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-## Nail polish randomizer
+## Pick your polish
 
 Simple application to randomize a nail polish color from my list of available colors.  Also has the ability to view the full color list.
 
